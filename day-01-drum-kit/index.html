@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>   
+    <section class="drum">
+        <h1 class="heading">Simple drum kit</h1>
+        <div class="drum__top-row">
+            <div data-key="q" class="drum__keys">q</div>
+            <div data-key="w" class="drum__keys">w</div>
+            <div data-key="e" class="drum__keys">e</div>
+            <div data-key="r" class="drum__keys">r</div>
+            <div data-key="t" class="drum__keys">t</div>
+            <div data-key="y" class="drum__keys">y</div>
+            <div data-key="u" class="drum__keys">u</div>
+            <div data-key="i" class="drum__keys">i</div>
+            <div data-key="o" class="drum__keys">o</div>
+            <div data-key="p" class="drum__keys">p</div>
+        </div>
+        <div class="drum__middle-row">
+            <div data-key="a" class="drum__keys">a</div>
+            <div data-key="s" class="drum__keys">s</div>
+            <div data-key="d" class="drum__keys">d</div>
+            <div data-key="f" class="drum__keys">f</div>
+            <div data-key="g" class="drum__keys">g</div>
+            <div data-key="h" class="drum__keys">h</div>
+            <div data-key="j" class="drum__keys">j</div>
+            <div data-key="k" class="drum__keys">k</div>
+            <div data-key="l" class="drum__keys">l</div>
+        </div>
+        <div class="drum__bottom-row">
+            <div data-key="z" class="drum__keys">z</div>
+            <div data-key="x" class="drum__keys">x</div>
+            <div data-key="c" class="drum__keys">c</div>
+            <div data-key="v" class="drum__keys">v</div>
+            <div data-key="b" class="drum__keys">b</div>
+            <div data-key="n" class="drum__keys">n</div>
+            <div data-key="m" class="drum__keys">m</div>
+        </div>
+    </section>
+    
+    <section class="sounds">
+        <audio data-key="q" src="audio/clap-808.wav"></audio>
+        <audio data-key="w" src="audio/clap-analog.wav"></audio>
+        <audio data-key="e" src="audio/clap-crushed.wav"></audio>
+        <audio data-key="r" src="audio/clap-fat.wav"></audio>
+        <audio data-key="t" src="audio/clap-slapper.wav"></audio>
+        <audio data-key="y" src="audio/clap-tape.wav"></audio>
+        <audio data-key="u" src="audio/cowbell-808.wav"></audio>
+        <audio data-key="i" src="audio/crash-808.wav"></audio>
+        <audio data-key="o" src="audio/crash-acoustic.wav"></audio>
+        <audio data-key="p" src="audio/crash-noise.wav"></audio>
+        <audio data-key="a" src="audio/crash-tape.wav"></audio>
+        <audio data-key="s" src="audio/hihat-808.wav"></audio>
+        <audio data-key="d" src="audio/hihat-analog.wav"></audio>
+        <audio data-key="f" src="audio/hihat-digital.wav"></audio>
+        <audio data-key="g" src="audio/tom-short.wav"></audio>
+        <audio data-key="h" src="audio/tom-lofi.wav"></audio>
+        <audio data-key="j" src="audio/tom-acoustic01.wav"></audio>
+        <audio data-key="k" src="audio/snare-sumo.wav"></audio>
+        <audio data-key="l" src="audio/snare-vinyl02.wav"></audio>
+        <audio data-key="z" src="audio/tom-acoustic02.wav"></audio>
+        <audio data-key="x" src="audio/snare-block.wav"></audio>
+        <audio data-key="c" src="audio/kick-electro01.wav"></audio>
+        <audio data-key="v" src="audio/perc-short.wav"></audio>
+        <audio data-key="b" src="audio/openhat-slick.wav"></audio>
+        <audio data-key="n" src="audio/perc-weirdo.wav"></audio>
+        <audio data-key="m" src="audio/perc-tribal.wav"></audio>
+    </section>
+
+    <!-- JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
